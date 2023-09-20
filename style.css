@@ -1,0 +1,34 @@
+body{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 27vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palevioletred;
+    justify-content: space-around;
+}
+.row::after{
+    display: table;
+    clear: both;
+}
+.cardt{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.cardi{
+    width: 80%;
+}
+.cardp{
+    font-size: 5rem;
+}
