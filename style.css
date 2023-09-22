@@ -8,27 +8,26 @@ body{
 .flex-container{
     display: flex;
     justify-content: space-around;
+    background-color: palevioletred;
 }
 .card{
-    width: 27vw;
+    width: 22%;
     height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: palevioletred;
+    background-color: crimson;
     justify-content: space-around;
 }
-.row::after{
-    display: table;
-    clear: both;
-}
-.cardt{
+
+.cardtitle{
     font-size: 2.2rem;
     text-transform: uppercase;
 }
-.cardi{
+.cardimg{
     width: 80%;
+    size: 50%;
 }
-.cardp{
+.cardpara{
     font-size: 25px;
 }
