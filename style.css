@@ -1,33 +1,50 @@
-body{
-    font-size: 10px;
-    box-sizing: border-box;
+html,body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
     background-color: pink;
 }
 .flex-container{
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    background-color: palevioletred;
+    align-items: center;
 }
-.card{
-    width: 22%;
-    height: 55vh;
+.header{
+font-size: 7rem;
+text-align: center;
+margin: 3rem 5rem;
+}
+.h1{
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: crimson;
-    justify-content: space-around;
-}
+    justify-content: center;
 
-.cardtitle{
-    font-size: 2.2rem;
-    text-transform: uppercase;
+}
+.card{
+    background-color: palevioletred;
+    height: 50vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 0.5rem 0.2rem #e0a8;
+    margin: 3rem 3rem;
 }
 .cardimg{
-    width: 80%;
-    size: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
 }
 .cardpara{
-    font-size: 25px;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: darkmagenta;
 }
