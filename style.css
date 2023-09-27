@@ -3,6 +3,8 @@ html,body{
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+}
+body{
     background-color: pink;
 }
 .flex-container{
@@ -25,6 +27,9 @@ margin: 3rem 5rem;
     justify-content: center;
 
 }
+.cardtitle{
+    font-size: 2rem;
+}
 .card{
     background-color: palevioletred;
     height: 50vh;
@@ -44,7 +49,6 @@ margin: 3rem 5rem;
     object-fit: cover;
 }
 .cardpara{
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     text-align: center;
-    background-color: darkmagenta;
 }
