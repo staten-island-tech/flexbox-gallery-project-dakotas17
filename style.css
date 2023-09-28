@@ -25,7 +25,16 @@ font-size: 7rem;
 text-align: center;
 margin: 3rem 5rem;
 font-family: 'Fuggles', cursive;
-animation: alternate;
+position: relative;
+animation: test 10s infinite;
+}
+@keyframes test{
+0%{
+right: -30%;
+}
+100%{
+right: 30%;
+}
 }
 .h1{
     height: 15vh;
