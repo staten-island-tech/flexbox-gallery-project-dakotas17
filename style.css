@@ -33,14 +33,14 @@ body {
   animation: test 8s 1;
 }
 .h1{
-    height: 15vh;
+    height: 10vh;
 }
 @keyframes test {
   0% {
-    right: -30%;
+    right: -15%;
   }
  50%{
-    right: 30%;
+    right: 15%;
  }
   100% {
     right: 0%;
