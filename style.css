@@ -62,12 +62,14 @@ body {
   margin: 3rem 3rem;
   transition: all 0.4s;
   filter: blur(5px);
+  object-fit: cover;
 }
 .cardimg {
-  height: 70%;
+  height: 50%;
   display: flex;
   justify-content: center;
   object-fit: cover;
+  width: 20%;
 }
 .cardpara {
   font-size: 1.7rem;
